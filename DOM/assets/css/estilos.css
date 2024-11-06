@@ -1,0 +1,27 @@
+body {
+    background-color: whitesmoke;
+}
+
+.main-section {
+    background-image: url('../img/mosaico.png');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.card {
+    height: auto;
+}
+
+.card img {
+    height: 250px;
+    width: 100%;
+    /* La imagen cubrirá toda la anchura del contenedor */
+    object-fit: cover;
+    /* Mantiene las proporciones sin distorsión */
+}
